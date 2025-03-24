@@ -7,10 +7,31 @@
 // signs의 길이는 absolutes의 길이와 같습니다.
 // signs[i] 가 참이면 absolutes[i] 의 실제 정수가 양수임을, 그렇지 않으면 음수임을 의미합니다.
 
+// i) for
+
 function solution(absolutes, signs) {
     let answer = 0
     for (i = 0; i < absolutes.length; i++) {
         answer += absolutes[i] * (signs[i] ? 1 : -1)
     }
     return answer;
+}
+
+// ii) forEach
+function solution(absolutes, signs) {
+    let answer = 0;
+    absolutes.forEach((v, i) => {
+        if (signs[i]) {
+            answer += v;
+        } else {
+            answer -= v;
+        }
+    })
+    return answer;
+}
+
+// iii) reduce
+
+function solution(absolutes, signs) {
+    return absolutes.reduce((acc, cur, index) => acc + cur * (signs[index] ? 1 : -1), 0)
 }
