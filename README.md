@@ -1,2 +1,10 @@
 # CondingTestDaily
 코딩 테스트 매일 연습
+- Daily Quest 1 : 코딩 테스트 합격자 되기 - 자바스크립트 편 문제1
+- Daily Quest 2: Udemy 자바스크립트 알고리즘 코딩 테스트 문제1
+- Optional Quest: 원하는 문제 - 쉬운 문제라도 여러 방법으로 풀이해보기
+  
+✅ day1 
+- Q1: 배열 정렬하기
+- Q2: 빅오 표기법, 배열과 오브젝트의 성능 평가
+- Optional Quest: 음양 더하기 3가지 방식으로 풀이
